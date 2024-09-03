@@ -1,0 +1,209 @@
+*{
+  font-family: "Montserrat", sans-serif;
+
+}
+
+h1, h2, h3, .h1, .h2, .h3{
+    font-family: "Electrolize", sans-serif 
+}
+
+:root{
+    --vl: #a84db8;
+   --bl: rgb(73,151,204);
+   --gl: rgb(255, 255, 0);
+}
+
+/* body{
+    background-color: var(--bl);
+    width: 100%;
+} */
+
+/* sezione header */
+.header-custom{
+    background-image: url(./media/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 92vh;
+
+ 
+    
+}
+
+h1{
+    color: var(--gl);
+    font-size: 50px;
+    font-weight: 400;
+    font-style: normal;
+    
+
+}
+
+/* fine sezione header */
+      
+/* navbar */
+.navigatori{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 8vh;
+    list-style: none;
+
+}
+
+/* fine navbar */
+
+/* main */
+
+/* main{
+    background-color: var(--bl);
+    height: 100vh;
+} */
+
+.bg-bl{
+background-color: var(--bl) ;
+}
+
+.bg-vl{
+    background-color: var(--vl) ;
+}
+
+.bg-gl{
+    background-color: var(--gl) ;
+}
+
+.text-bl{
+    color:var(--bl) ;
+
+}
+.text-vl{
+    color:var(--vl) ;
+
+}
+
+.text-gl{
+    color:var(--gl) ;
+
+}
+
+/* sezione arcade */
+
+.linea{
+    height: 5px;
+    background-color: var(--gl);
+    width: 70%;
+
+}
+
+/* fine sezione arcade */
+
+/* sezione docente */
+.back2{
+font-size: 1rem;
+}
+
+.sfondo2{
+    background-image: url(./media/bg-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+   
+}
+ .docente{
+background-image: url(./media/bg-3.jpg);
+background-position: center;
+background-size: cover;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 100vh;
+ }
+
+ /* sezione timeline */
+
+.bor-right{
+border-right: 2px solid var(--vl);
+}
+
+.bor-left{
+border-left: 2px solid var(--vl);
+}
+
+
+
+.pallino-r{
+    position: relative;
+}
+
+.pallino-r::after{
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--gl);
+    border: 2px solid var(--vl);
+    top: 0;
+    right: -24px;
+}
+
+.pallino-l{
+    position: relative;
+}
+
+.pallino-l::before{
+    content: '';
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: var(--gl);
+    border: 2px solid var(--vl);
+    top: 0;
+    left: -24px;
+}
+
+ /* fine sezione timeline */
+
+
+
+ /* sezione contatti */
+
+ .bor-vl{
+    border: 2px solid var(--vl); 
+  }
+
+  .imm-left{
+    position: relative;
+    top: -30px;
+    left: 30px;
+    background-color: white;
+  }
+ 
+  .imm-left:hover{
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+  }
+
+
+  /* fine sezione contatti */
+
+
+
+
+/* media query */
+
+@media screen and (max-width:600px){
+.imm-left{
+position: static;
+top: 0;
+left: 0;
+}
+navbar{
+    width:100%;
+}
+.faq{
+    margin: 0;
+}
+}

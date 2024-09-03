@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contatti</title>
+
+      <!--js bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- fine js bootstrap -->
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- fine font -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+
+    <body>
+         <!-- sezione header -->
+   <header class="container-fluid">
+    <div class="row header-custom justify-content-center">
+        <div class="col-12 col-md-6 col-lg-3 d-flex align-items-center text-center">
+           <h1 class="display-2">Webinar Retrogaming</h1>
+        </div>
+    </div>
+  </header>
+   
+   <!-- fine sezione header -->
+   
+   <!-- navbar -->
+
+ <nav class="navbar navbar-expand-lg bg-vl sticky-top">
+   <div class="container-fluid">
+         <a class="logoaulab" href="./index.html">
+           <img src="./media/aulab-logo_y.png" alt="logo Aulab" class="img-fluid" width="128" height="54">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+       <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+               <li class="nav-item">
+                 <a class="nav-link text-gl" aria-current="page" href="./index.html" target="_blank">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-gl" href="./chisiamo.html" target="_blank">Chi siamo</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link text-gl" href="./contatti.html" target="_blank">Contatti</a>
+               </li>
+               <li class="nav-item">
+                <a class="nav-link text-gl" href="./faq.html" target="_blank">Faq</a>
+              </li>
+             </ul>
+           </div>
+         </div>
+     </nav>  
+   <!-- fine navbar -->
+    
+      <main>
+         <section class="container my-5">
+          <div class="row">
+            <div class="col-12 col-md-6 bor-vl imm-left">
+              <img src="./media/youtube.png" height="250px" width="500px" alt="immagine youtube" class="img-fluid">
+            </div>
+            <div class="col-12 col-md-6 bor-vl">
+              <img src="./media/working-from-home.png" height="250px" width="500px" alt="immagine web designer a casa" class="img-fluid">
+            </div>
+          </div>
+         </section>
+
+      </main>
+
+
+      <!-- sezione form -->
+
+      <section class="form bg-gl" class="container-fluid">
+        <div class="row justify-content-center">
+         <div class="col-12 text-vl text-center my-5">
+          <h2>Contattaci</h2>
+         </div> 
+         <div class="col-12 col-md-6 col-lg-3">
+           <form class="bg-vl rounded-4 p-5">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label text-gl">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="anagrafica" class="form-label text-gl">Nome</label>
+              <input type="text" class="form-control" id="anagrafica">
+            </div>
+          <div class="mb-3">
+            <label for="anagrafica" class="form-label text-gl">Cognome</label>
+            <input type="text" class="form-control" id="anagrafica">
+          </div>
+            <div>
+              <label class="richiesta text-gl">Richiesta</label>
+              <textarea cols="30" rows="10"></textarea>
+          </div>
+            <button type="button" class="btn btn-primary bg-gl border-vl text-vl" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Invia
+            </button>
+           </form>
+          </div>
+        </div>
+      </section> 
+        <!-- fine form -->
+
+      
+
+
+
+
+
+             <!-- footer -->
+
+             <footer class="container-fluo bg-gl mt-3">
+              <div class="container">
+                <div class="row bg-bl">
+                  <div class="col-12 col-md-9 p-5 text-white">
+                    <p class="lead">Indirizzo: Via gli slip, 23</p>
+                    <p>Tel. +393112333361</p>
+                    <p>P.iva 1234567890</p>
+                  </div>
+                  <div class="col-12 col-md-3 p-5 text-white">
+                    <p><a href="https://www.google.it/" target="blank">
+                      <i class="fa-brands fa-facebook text-white fa-2x"></a></i></a>
+                    </p>
+                    <p><i class="fa-brands fa-instagram fa-2x"></i></p>
+                    <p><i class="fa-brands fa-tiktok fa-2x"></i></p>
+                  </div>
+                </div>
+              </div>
+            </footer>
+    
+              <!-- fine footer -->
+
+            
+
+            <!-- modale -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content bg-vl text-gl">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Grazie per averci contattato</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      Risponderemo il prima possibile
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary bg-gl border-vl text-vl" data-bs-dismiss="modal">Close</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <!-- fine modale -->
+
+
+
+
+
+
+      <!-- fontawesome CDN -->
+      <script src="https://kit.fontawesome.com/3668bd7031.js" crossorigin="anonymous"></script>
+      <!--fine fontawesome CDN  -->
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+  </html>
